@@ -108,5 +108,9 @@ const teams = [
     }
 ];
 // 2. Genero numeri random per punti e falli subiti
+for (const team of teams) {
+  team.points = Math.floor(Math.random() * 100); // punti da 0 a 99
+  team.fouls = Math.floor(Math.random() * 50);   // falli da 0 a 49
+}
 // 3. Creo nuovo array con solo nomi e falli subiti
 // 4. Stampo tutto in console
