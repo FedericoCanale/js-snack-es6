@@ -1,0 +1,19 @@
+//ex 1 
+/* Creare un array di oggetti:
+Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
+Stampare a schermo la bici con peso minore.
+
+To do list
+	1.	Creare un array di oggetti, ognuno rappresenta una bici da corsa con:
+	•	nome
+	•	peso
+	2.	Trovare la bici con il peso minore
+	3.	Stampare a schermo il nome e il peso della bici più leggera
+Tools
+    •	const / let 
+	•	Array di oggetti
+	•	Ciclo for oppure for...of
+	•	Condizione if
+	•	console.log() per stampare a schermo
+
+*/
