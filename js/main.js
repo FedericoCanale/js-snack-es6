@@ -1,3 +1,5 @@
+console.log('it works');
+
 //ex 1 
 /* Creare un array di oggetti:
 Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
@@ -17,3 +19,8 @@ Tools
 	•	console.log() per stampare a schermo
 
 */
+
+// 1. Creo un array di bici da corsa, con nome e peso
+// 2. Imposto la prima bici come la più leggera all'inizio
+// 3. Scorro tutto l'array per trovare la bici col peso minore
+// 4. Stampo la bici con peso minore
