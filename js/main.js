@@ -113,4 +113,14 @@ for (const team of teams) {
   team.fouls = Math.floor(Math.random() * 50);   // falli da 0 a 49
 }
 // 3. Creo nuovo array con solo nomi e falli subiti
+const result = [];
+
+for (const team of teams) {
+  result.push({
+    name: team.name,
+    fouls: team.fouls
+  });
+}
 // 4. Stampo tutto in console
+console.log('Tutte le squadre:', teams);
+console.log('Solo nomi e falli subiti:', result);
