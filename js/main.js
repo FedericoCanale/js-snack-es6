@@ -54,3 +54,27 @@ for (const bike of bikes) {
 }
 // 4. Stampo la bici con peso minore
 console.log(`La bici più leggera è ${lightestBike.name} con peso di ${lightestBike.weight} kg`);
+
+//ex 2
+/* Creare un array di oggetti di squadre di calcio.
+Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
+Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
+Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”.
+Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console. 
+
+to do list	
+
+    1.	Creare un array di oggetti con solo il nome delle squadre.
+        • Le proprietà punti e falli saranno inizialmente a 0.
+    2.	Generare numeri casuali per punti e falli usando Math.random() e Math.floor().
+    3.	Creare un nuovo array con solo nome e falli subiti.
+    4.	Stampare tutto in console.
+
+tools 
+	•	const / let
+	•	Array di oggetti
+	•	Math.random() e Math.floor() per i numeri casuali
+	•	Ciclo for...of
+	•	Metodo .push()
+	•	console.log()
+    */
