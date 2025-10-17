@@ -78,3 +78,8 @@ tools
 	•	Metodo .push()
 	•	console.log()
     */
+
+    // 1. Creo l'array con i nomi delle squadre, punti e falli inizializzati a 0
+    // 2. Genero numeri random per punti e falli subiti
+    // 3. Creo nuovo array con solo nomi e falli subiti
+    // 4. Stampo tutto in console
