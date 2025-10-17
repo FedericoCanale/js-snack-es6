@@ -71,15 +71,42 @@ to do list
     4.	Stampare tutto in console.
 
 tools 
-	•	const / let
-	•	Array di oggetti
-	•	Math.random() e Math.floor() per i numeri casuali
-	•	Ciclo for...of
-	•	Metodo .push()
-	•	console.log()
+    •	const / let
+    •	Array di oggetti
+    •	Math.random() e Math.floor() per i numeri casuali
+    •	Ciclo for...of
+    •	Metodo .push()
+    •	console.log()
     */
 
-    // 1. Creo l'array con i nomi delle squadre, punti e falli inizializzati a 0
-    // 2. Genero numeri random per punti e falli subiti
-    // 3. Creo nuovo array con solo nomi e falli subiti
-    // 4. Stampo tutto in console
+// 1. Creo l'array con i nomi delle squadre, punti e falli inizializzati a 0
+const teams = [
+    {
+        name: 'Juventus',
+        points: 0, fouls:
+            0
+    },
+    {
+        name: 'Inter',
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: 'Milan',
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: 'Roma',
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: 'Napoli',
+        points: 0,
+        fouls: 0
+    }
+];
+// 2. Genero numeri random per punti e falli subiti
+// 3. Creo nuovo array con solo nomi e falli subiti
+// 4. Stampo tutto in console
