@@ -44,6 +44,13 @@ const bikes = [
     }
 ];
 // 2. Imposto la prima bici come la più leggera all'inizio
+let lightestBike = bikes[0];
 
 // 3. Scorro tutto l'array per trovare la bici col peso minore
+for (const bike of bikes) {
+    if (bike.weight < lightestBike.weight) {
+        lightestBike = bike;
+    }
+}
 // 4. Stampo la bici con peso minore
+console.log(`La bici più leggera è ${lightestBike.name} con peso di ${lightestBike.weight} kg`);
